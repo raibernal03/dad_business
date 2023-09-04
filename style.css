@@ -1,4 +1,16 @@
 /* COMING SOON PAGE */
-.class{
+.repair{
+    display: flex;
+    /* justify-content:center; */
+    flex-direction: column;
     align-items: center;
 }
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Actual page*/
+
+
