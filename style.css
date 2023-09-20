@@ -19,3 +19,7 @@
   align-content: center;
   
 }
+.logo{
+  display:flex;
+  align-content: center;
+}
