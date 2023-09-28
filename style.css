@@ -1,25 +1,22 @@
-/* COMING SOON PAGE */
-/* .repair{
-    display: flex;
-    /* justify-content:center; */
-   /* flex-direction: column;
-    align-items: center;
-}
-.facebook{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
-/*Actual page*/
+}
 
-.language{
-  display:flex;
-  justify-content: space-evenly;
-  align-content: center;
-  
+li, a , button{
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
 }
-.logo{
-  display:flex;
-  align-content: center;
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
+
