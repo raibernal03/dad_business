@@ -17,6 +17,45 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 20px 5%;
+}
+.nav_links{
+  list-style: none;
 }
 
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #B6192A;
+}
+
+.cta button{
+  padding: 9px 25px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.area1, .area3, .area5{
+  display: flex;
+  background-color: black;
+  padding: 5%;
+}
+.area2, .area4, .area6{
+  display: flex;
+  padding: 5%;
+  flex-direction: row-reverse;
+}
+/* .eng, .span button{
+  background-color: ;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+} */
